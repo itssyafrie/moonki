@@ -48,19 +48,6 @@ export function Hero() {
             height={500}
             className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]"
           />
-
-          <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20">
-            <p className="text-[#FFFFFF] text-center lg:text-[18px]">
-              Trusted by these companies
-            </p>
-            <div className="grid grid-cols-3 items-center justify-center justify-items-center px-[20px] align-middle  lg:grid-cols-5">
-              <Image src="/Google.svg" alt="" width={40} height={40} />
-              <Image src="/Slack.svg" alt="" width={40} height={40} />
-              <Image src="Truspilot.svg" alt="" width={40} height={40} />
-              <Image src="/CNN.svg" alt="" width={40} height={40} />
-              <Image src="/Clutch.svg" alt="" width={40} height={40} />
-            </div>
-          </div>
         </div>
       </div>
     </div>

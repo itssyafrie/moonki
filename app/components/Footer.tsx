@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { navLinks } from "../constants";
 
 export function Footer() {
   return (
@@ -7,12 +9,13 @@ export function Footer() {
         <p className="font-extrabold text-[#36485C] text-[24px]">MOONKI</p>
       </div>
 
-      <ul className="flex flex-col items-center gap-y-[32px] pt-[56px] text-[#36485C] sm:flex-row sm:justify-center sm:gap-x-5 sm:pt-5">
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Enterprise</li>
-        <li>Careers</li>
-      </ul>
+      <div className="flex flex-col items-center gap-y-[32px] pt-[56px] text-[#36485C] sm:flex-row sm:justify-center sm:gap-x-5 sm:pt-5">
+        {navLinks.map((link) => (
+          <Link href={link.href} key={link.key}>
+            {link.label}
+          </Link>
+        ))}
+      </div>
 
       <p className="pt-[56px] text-center text-[14px] font-medium text-[#5F7896] sm:pt-5">
         © Copyright 2024. Your Site. All rights reserved.

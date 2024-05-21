@@ -8,13 +8,13 @@ export function Navbar() {
       <div className="flex items-center">
         <div className="font-extrabold text-[24px]">MOONKI</div>
 
-        <ul className="hidden lg:flex pl-[74px] gap-x-[56px]">
+        <div className="hidden lg:flex pl-[74px] gap-x-[56px]">
           {navLinks.map((link) => (
             <Link href={link.href} key={link.key}>
               {link.label}
             </Link>
           ))}
-        </ul>
+        </div>
       </div>
 
       <div className="flex gap-x-5">

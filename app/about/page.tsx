@@ -40,6 +40,7 @@ export default function About() {
                 alt="Feature 1 image"
                 width={500}
                 height={500}
+                quality={70}
                 className="hidden w-1/2 sm:block"
               />
               <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
@@ -54,6 +55,7 @@ export default function About() {
                   alt="feature 1 image"
                   width={500}
                   height={500}
+                  quality={70}
                   className="pt-[24px] sm:hidden"
                 />
                 <p className="py-[24px] text-[#36485C] lg:text-[18px]">
@@ -150,10 +152,12 @@ export default function About() {
                   <p className="text-[#36485C] lg:text-2xl">
                     Make Magic Possible
                   </p>
-
-                  <p className="pt-4 text-[#4328EB] text-3xl font-extrabold lg:text-5xl">
-                    3424
-                  </p>
+                  <Image
+                    src="/magic-purple.svg"
+                    alt="magic"
+                    width={50}
+                    height={50}
+                  />
                 </div>
               </div>
               <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
@@ -161,19 +165,23 @@ export default function About() {
                   <p className="text-[#36485C] lg:text-2xl">
                     Obsess Over Quality
                   </p>
-
-                  <p className="pt-4 text-[#4328EB] text-3xl font-extrabold lg:text-5xl">
-                    20x
-                  </p>
+                  <Image
+                    src="/diamong-purple.svg"
+                    alt="quality"
+                    width={50}
+                    height={50}
+                  />
                 </div>
               </div>
               <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
                 <div>
                   <p className="text-[#36485C] lg:text-2xl">Have Fun</p>
-
-                  <p className="pt-4 text-[#4328EB] text-3xl font-extrabold lg:text-5xl">
-                    $20M
-                  </p>
+                  <Image
+                    src="/fun-purple.svg"
+                    alt="having fun"
+                    width={50}
+                    height={50}
+                  />
                 </div>
               </div>
             </div>
