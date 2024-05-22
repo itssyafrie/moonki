@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <div className="pt-4 lg:pt-10">
       <div className="px-[20px] lg:px-[280px]">
-        <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]">
+        <h1 className="text-center text-[32px] leading-[40px] font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-pink-500 lg:text-[64px] lg:leading-[72px]">
           Start monitoring your website like a pro
         </h1>
         <p className="text-center pt-6 text-[#36485C] lg:text-[18px] lg:leading-7">

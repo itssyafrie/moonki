@@ -6,11 +6,17 @@ export function Navbar() {
   return (
     <nav className="flex w-full items-center justify-between px-[20px] py-[16px] lg:container lg:mx-auto lg:px-20">
       <div className="flex items-center">
-        <div className="font-extrabold text-[24px]">MOONKI</div>
+        <Link href="/" className="font-extrabold text-[24px]">
+          MOONKI
+        </Link>
 
         <div className="hidden lg:flex pl-[74px] gap-x-[56px]">
           {navLinks.map((link) => (
-            <Link href={link.href} key={link.key}>
+            <Link
+              href={link.href}
+              key={link.key}
+              className="hover:bg-violet-200 px-2 py-2 rounded-md"
+            >
               {link.label}
             </Link>
           ))}

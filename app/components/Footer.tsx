@@ -6,12 +6,18 @@ export function Footer() {
   return (
     <div className="pt-[80px] pb-[40px]">
       <div className="flex items-center justify-center">
-        <p className="font-extrabold text-[#36485C] text-[24px]">MOONKI</p>
+        <Link href="/" className="font-extrabold text-[#36485C] text-[24px]">
+          MOONKI
+        </Link>
       </div>
 
       <div className="flex flex-col items-center gap-y-[32px] pt-[56px] text-[#36485C] sm:flex-row sm:justify-center sm:gap-x-5 sm:pt-5">
         {navLinks.map((link) => (
-          <Link href={link.href} key={link.key}>
+          <Link
+            href={link.href}
+            key={link.key}
+            className="hover:bg-violet-200 px-2 py-2 rounded-md"
+          >
             {link.label}
           </Link>
         ))}

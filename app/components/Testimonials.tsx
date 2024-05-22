@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Testimonials() {
   return (
     <div className="py-[48px] lg:py-[60px]">
@@ -22,6 +24,13 @@ export default function Testimonials() {
             <p className="text-[#36485C] text-[18px] font-medium py-4">
               Eduardo Viñales
             </p>
+            <div className="flex flex-row gap-x-4 py-3">
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+            </div>
           </div>
         </div>
         <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
@@ -41,6 +50,13 @@ export default function Testimonials() {
             <p className="text-[#36485C] text-[18px] font-medium py-4">
               Amanda Miraflores
             </p>
+            <div className="flex flex-row gap-x-4 py-3">
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+            </div>
           </div>
         </div>
         <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
@@ -60,6 +76,12 @@ export default function Testimonials() {
             <p className="text-[#36485C] text-[18px] font-medium py-4">
               Dio Alfino
             </p>
+            <div className="flex flex-row gap-x-4 py-3">
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+            </div>
           </div>
         </div>
       </div>
@@ -80,6 +102,13 @@ export default function Testimonials() {
             <p className="text-[#36485C] text-[18px] font-medium py-4">
               Nathan Johnson
             </p>
+            <div className="flex flex-row gap-x-4 py-3">
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+            </div>
           </div>
         </div>
         <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
@@ -98,6 +127,13 @@ export default function Testimonials() {
             <p className="text-[#36485C] text-[18px] font-medium py-4">
               Miriam Starr
             </p>
+            <div className="flex flex-row gap-x-4 py-3">
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+            </div>
           </div>
         </div>
         <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
@@ -118,6 +154,12 @@ export default function Testimonials() {
             <p className="text-[#36485C] text-[18px] font-medium py-4">
               Sydney Markle
             </p>
+            <div className="flex flex-row gap-x-4 py-3">
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+              <Image src="star-solid.svg" alt="rating" width={24} height={24} />
+            </div>
           </div>
         </div>
       </div>
