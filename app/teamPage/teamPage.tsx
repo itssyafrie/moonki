@@ -114,12 +114,14 @@ const Teams: React.FC = () => {
           <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px] pb-6">
             Our Team
           </h1>
-          <p className="text-center pt-6 pb-10 text-[#36485C] lg:text-[18px] lg:leading-7">
-            Meet our tech wizards. With extensive experience and specialized
-            skills, our professionals work collaboratively to provide
-            comprehensive monitoring solutions that keep your online presence
-            running smoothly and efficiently.
-          </p>
+          <div className="px-[20px] lg:px-[280px]">
+            <p className="text-center pt-6 pb-10 text-[#36485C] lg:text-[18px] lg:leading-7">
+              Meet our tech wizards. With extensive experience and specialized
+              skills, our professionals work collaboratively to provide
+              comprehensive monitoring solutions that keep your online presence
+              running smoothly and efficiently.
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {teamMembers.map((member, index) => (
               <TeamMemberCard key={index} member={member} />
