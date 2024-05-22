@@ -48,7 +48,7 @@ export default function About() {
                   Sales Dashboard
                 </h3>
                 <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-                  Vincent LeBlanc
+                  Monitor you sales like a pro
                 </h1>
                 <Image
                   src="/Dashboard-1.svg"
@@ -80,7 +80,7 @@ export default function About() {
                   Finance Dashboard
                 </h3>
                 <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-                  Luisa Morales
+                  Safeguard your money
                 </h1>
                 <Image
                   src="/Dashboard-1.svg"
@@ -113,7 +113,7 @@ export default function About() {
                   Customer & Growth Dashboard
                 </h3>
                 <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-                  Vincent LeBlanc
+                  Effortlessly grow your audience
                 </h1>
                 <Image
                   src="/Dashboard-3.svg"
@@ -129,46 +129,6 @@ export default function About() {
                   channels to optimize customer satisfaction and drive
                   sustainable growth for your business.
                 </p>
-              </div>
-            </div>
-          </div>
-          <div className="py-[48px] lg:py-[60px]">
-            <h1 className="text-[#172026] text-center font-medium  text-2xl lg:text-[42px]">
-              Our milestones
-            </h1>
-            <div className="flex flex-col gap-y-6 gap-x-[24px] lg:flex-row pt-14">
-              <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
-                <div>
-                  <p className="text-[#36485C] lg:text-2xl">
-                    Businesses transformed
-                  </p>
-
-                  <p className="pt-4 text-[#4328EB] text-3xl font-extrabold lg:text-5xl">
-                    3424
-                  </p>
-                </div>
-              </div>
-              <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
-                <div>
-                  <p className="text-[#36485C] lg:text-2xl">
-                    Average reported ROI of our user
-                  </p>
-
-                  <p className="pt-4 text-[#4328EB] text-3xl font-extrabold lg:text-5xl">
-                    20x
-                  </p>
-                </div>
-              </div>
-              <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
-                <div>
-                  <p className="text-[#36485C] lg:text-2xl">
-                    Average increased revenue
-                  </p>
-
-                  <p className="pt-4 text-[#4328EB] text-3xl font-extrabold lg:text-5xl">
-                    $20M
-                  </p>
-                </div>
               </div>
             </div>
           </div>

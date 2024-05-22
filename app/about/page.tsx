@@ -71,7 +71,7 @@ export default function About() {
 
             <div className="flex flex-col gap-x-6 sm:flex-row">
               <Image
-                src="/Instagram post - 3.svg"
+                src="/Instagram post - 3.webp"
                 alt="Feature 2 image"
                 width={500}
                 height={500}
@@ -85,7 +85,7 @@ export default function About() {
                   Luisa Morales
                 </h1>
                 <Image
-                  src="/Instagram post - 3.svg"
+                  src="/Instagram post - 3.webp"
                   alt="feature 1 image"
                   width={500}
                   height={500}
