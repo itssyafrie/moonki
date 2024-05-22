@@ -32,9 +32,9 @@ export function Hero() {
       </div>
 
       <div className="flex h-full w-full justify-center">
-        <div className="bottom-5 flex w-full flex-col items-center">
+        <div className="pb-10 flex w-full flex-col items-center">
           <Image
-            src="/Image.svg"
+            src="/Image.webp"
             alt="hero image"
             width={500}
             height={500}
