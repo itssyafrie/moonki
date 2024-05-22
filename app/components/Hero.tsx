@@ -31,16 +31,8 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative flex h-full w-full justify-center">
-        <Image
-          src="/Gradient.svg"
-          alt="Gradient"
-          width={40}
-          height={40}
-          className="min-h-[500px] w-full object-cover lg:h-auto"
-        />
-
-        <div className="absolute bottom-5 flex w-full flex-col items-center">
+      <div className="flex h-full w-full justify-center">
+        <div className="bottom-5 flex w-full flex-col items-center">
           <Image
             src="/Image.svg"
             alt="hero image"

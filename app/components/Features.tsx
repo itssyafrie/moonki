@@ -26,9 +26,9 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+            Gain real-time insights into sales data, customer behavior, and
+            market trends, enabling businesses to make informed decisions and
+            enhance their online revenue.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
@@ -41,7 +41,7 @@ export function Features() {
                   height={24}
                 />
               </span>
-              Lorem ipsum dolor sit amet
+              Real-Time Sales Tracking
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
@@ -52,7 +52,7 @@ export function Features() {
                   height={24}
                 />
               </span>
-              Lorem ipsum dolor sit amet
+              Comprehensive Sales Analytics
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
@@ -63,7 +63,7 @@ export function Features() {
                   height={24}
                 />
               </span>
-              Lorem ipsum dolor sit amet
+              Product Performance
             </li>
           </ul>
 
@@ -104,9 +104,11 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+            Streamline and enhance your customer service operations, ensure that
+            your customers receive the highest level of support efficiently and
+            effectively. This all-in-one solution integrates various tools and
+            features to manage customer inquiries, track issues, and provide
+            timely resolutions.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
@@ -119,7 +121,7 @@ export function Features() {
                   height={24}
                 />
               </span>
-              Lorem ipsum dolor sit amet
+              Unified Inbox
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
@@ -130,7 +132,7 @@ export function Features() {
                   height={24}
                 />
               </span>
-              Lorem ipsum dolor sit amet
+              Ticket Management
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
@@ -141,7 +143,7 @@ export function Features() {
                   height={24}
                 />
               </span>
-              Lorem ipsum dolor sit amet
+              Live Chat & Chatbots
             </li>
           </ul>
 
@@ -182,19 +184,20 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+            Track, analyze, and optimize the growth and performance of your
+            website. Gain comprehensive insights into key metrics, visitor
+            behavior, and engagement, other actionable data to drive website
+            improvements and business growth.
           </p>
 
           <div className="flex w-full gap-x-[24px] ">
             <div className="w-1/2 flex flex-col gap-y-3">
-              <h3 className="text-[20px] font-medium text-[#172026]">100+</h3>
-              <p className="text-[#36485C] ">Lorem ipsum dolor sit</p>
+              <h3 className="text-[20px] font-medium text-[#172026]">30%</h3>
+              <p className="text-[#36485C] ">Increase in conversion</p>
             </div>
             <div className="w-1/2 flex flex-col gap-y-3">
               <h3 className="text-[20px] font-medium text-[#172026]">800+</h3>
-              <p className="text-[#36485C]">Conse adipiscing elit</p>
+              <p className="text-[#36485C]">Satisfied customers</p>
             </div>
           </div>
 

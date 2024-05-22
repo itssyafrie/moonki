@@ -2,6 +2,8 @@
 
 import React, { useEffect, useState, useCallback, memo } from "react";
 import Image from "next/image";
+import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 interface TeamMember {
   name: string;
@@ -12,7 +14,7 @@ interface TeamMember {
 }
 
 const SkeletonMemberCard: React.FC = () => (
-  <div className="bg-gray-200 p-6 rounded-lg shadow-md animate-pulse">
+  <div className="bg-gray-200 p-6 rounded-lg animate-pulse">
     <div className="w-32 h-32 rounded-full mx-auto mb-4"></div>
     <h2 className="text-xl font-semibold text-center bg-gray-300 h-6 mb-2"></h2>
     <p className="text-center bg-gray-300 h-4 mb-2"></p>
@@ -22,7 +24,7 @@ const SkeletonMemberCard: React.FC = () => (
 SkeletonMemberCard.displayName = "SkeletonMemberCard";
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = memo(({ member }) => (
-  <div className="bg-white p-6 rounded-lg shadow-md">
+  <div className="bg-[#F5F4FF] p-6 rounded-lg">
     <div className="w-32 h-32 rounded-full mx-auto mb-4 relative">
       <Image
         src={member.picture}
@@ -35,11 +37,18 @@ const TeamMemberCard: React.FC<{ member: TeamMember }> = memo(({ member }) => (
         loading="lazy"
       />
     </div>
-    <h2 className="text-xl font-semibold text-center">{member.name}</h2>
+    <h2 className="text-xl text-[#4328EB] font-semibold text-center">
+      {member.name}
+    </h2>
     <p className="text-center text-gray-600">{member.location}</p>
+    <div className="flex flex-row justify-center pt-16">
+      <div className="w-1/3 border border-[#4328EB] rounded-md hover:bg-violet-400 text-center px-2 py-2">
+        Contact
+      </div>
+    </div>
     <div className="mt-4">
-      <p className="text-gray-800">Email: {member.email}</p>
-      <p className="text-gray-800">Phone: {member.phone}</p>
+      <p className="text-[#36485C] text-center">{member.email}</p>
+      <p className="text-[#36485C] text-center">{member.phone}</p>
     </div>
   </div>
 ));
@@ -78,9 +87,11 @@ const Teams: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-100 py-10">
+      <div className="min-h-screen py-10">
         <div className="container mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-10">Our Team</h1>
+          <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px] pb-10">
+            Our Team
+          </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {[...Array(9)].map((_, index) => (
               <SkeletonMemberCard key={index} />
@@ -96,16 +107,28 @@ const Teams: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 py-10">
-      <div className="container mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-10">Our Team</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {teamMembers.map((member, index) => (
-            <TeamMemberCard key={index} member={member} />
-          ))}
+    <>
+      <Navbar />
+      <div className="min-h-screen py-10">
+        <div className="container mx-auto">
+          <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px] pb-6">
+            Our Team
+          </h1>
+          <p className="text-center pt-6 pb-10 text-[#36485C] lg:text-[18px] lg:leading-7">
+            Meet our tech wizards. With extensive experience and specialized
+            skills, our professionals work collaboratively to provide
+            comprehensive monitoring solutions that keep your online presence
+            running smoothly and efficiently.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {teamMembers.map((member, index) => (
+              <TeamMemberCard key={index} member={member} />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 };
 

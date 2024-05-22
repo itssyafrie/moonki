@@ -34,7 +34,7 @@ export function Pricing() {
                     height={24}
                   />
                 </span>
-                Lorem ipsum dolor sit amet
+                Real-Time Performance Monitoring
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
@@ -45,7 +45,7 @@ export function Pricing() {
                     height={24}
                   />
                 </span>
-                Lorem ipsum dolor sit amet
+                Basic Analytics
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
@@ -56,7 +56,7 @@ export function Pricing() {
                     height={24}
                   />
                 </span>
-                Lorem ipsum dolor sit amet
+                Limited Monitoring Locations
               </li>
             </ul>
           </div>
@@ -88,7 +88,7 @@ export function Pricing() {
                     height={24}
                   />
                 </span>
-                Lorem ipsum dolor sit amet
+                Real-Time Performance Monitoring
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
@@ -99,7 +99,7 @@ export function Pricing() {
                     height={24}
                   />
                 </span>
-                Lorem ipsum dolor sit amet
+                Advanced Basic Analytics
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
@@ -110,7 +110,7 @@ export function Pricing() {
                     height={24}
                   />
                 </span>
-                Lorem ipsum dolor sit amet
+                Advanced Monitoring Locations
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
@@ -121,7 +121,7 @@ export function Pricing() {
                     height={24}
                   />
                 </span>
-                Lorem ipsum dolor sit amet
+                Alert Notifications
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
@@ -132,7 +132,7 @@ export function Pricing() {
                     height={24}
                   />
                 </span>
-                Lorem ipsum dolor sit amet
+                Integration & Automation
               </li>
             </ul>
           </div>
@@ -153,13 +153,12 @@ export function Pricing() {
             <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">Custom</h2>
 
             <p className="pt-4 text-[16px] text-[#36485C]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
-            </p>
-            <p className="pt-2 text-[16px] text-[#36485C]">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit.
+              Our Custom Tier is the ultimate solution for enterprises and
+              organizations with unique and demanding web monitoring needs. This
+              tier offers a highly flexible and tailored approach, providing
+              advanced features, dedicated resources, and bespoke solutions to
+              ensure your website operates at peak performance under all
+              conditions.
             </p>
           </div>
           <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
